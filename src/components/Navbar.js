@@ -9,7 +9,7 @@ function Navbar() {
                     <img src="imgs/logo.png"  alt="Logo" />
                 </Link>
 
-                <button to="" role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarToggle">
+                <button to="" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarToggle">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -20,6 +20,10 @@ function Navbar() {
                 <div className="navbar-end">
                     <Link to="/" className="navbar-item has-text-weight-semibold">
                         Home
+                    </Link>
+
+                    <Link to="/reserve" className="navbar-item has-text-weight-semibold">
+                        Reserve
                     </Link>
 
                     <Link to="/about" className="navbar-item has-text-weight-semibold">
