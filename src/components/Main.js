@@ -10,7 +10,7 @@ function Main()
         </div>
         <section className="columns is-multiline">
           {dishes.map((dish) => (
-              <div className='column is-12-mobile is-3-tablet'>
+              <div key={dish.id} className='column is-12-mobile is-3-tablet'>
                   <Card imgSrc={dish.imgSrc} price={dish.price} 
                   description={dish.description} name={dish.name} />
               </div>
