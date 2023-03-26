@@ -1,0 +1,22 @@
+    section.hero {
+        background: url('/public/imgs/dishes/4.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+        position: relative;
+    }
+
+    @media screen and (max-width: 768px) {
+        section.hero {
+            background: none;
+            height: 20vh;
+        }
+    }
+
+    section.hero .hero-body {
+        background: #ffffff88;
+        position: absolute;
+        bottom: 2%;
+        left: 5%;
+    }
