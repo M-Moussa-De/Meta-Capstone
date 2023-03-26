@@ -15,7 +15,7 @@ function Card(props) {
           
           <div className="media mb-0">
             <div className="media-content is-flex is-align-items-center is-justify-content-space-between">
-              <p className="title is-5 has-text-weight-bold">{props.title}</p>
+              <p className="title is-5 has-text-weight-bold">{props.name}</p>
               <p className="subtitle is-6 has-text-weight-semibold">${props.price}</p>
             </div>
           </div>
